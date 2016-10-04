@@ -1,0 +1,25 @@
+{
+    "name": "guissilveira/vacancy-repository-test",
+    "description": "Vacancy repository for test at Endouble",
+    "version": "1.0",
+    "license": "proprietary",
+    "type": "project",
+    "time": "2016-10-04",
+    "authors": [
+        {
+            "name": "Guilherme Silveira da Silva",
+            "email": "guissilveira@gmail.com",
+            "homepage": "http://github.com/guissilveira",
+            "role": "Web Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Netwerven\\": "src/" }
+    },
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    }
+}
